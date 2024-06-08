@@ -84,12 +84,5 @@ namespace DevFreela.API.Controllers
             return NoContent();
         }
 
-        //api/users/1/login
-        [HttpPut("{id}/login")]
-        public IActionResult Login(int id, [FromBody] LoginModel login)
-        {
-            return NoContent();
-        }
-
     }
 }
