@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DevFreela.API.Controllers
 {
     [Route("api/users")]
-    public class UsersController:ControllerBase
+    public class UsersController : ControllerBase
     {
         //api/users/1
         [HttpGet("{id}")]
